@@ -1,2 +1,2 @@
 # ProfileCardComponent
-The frontend mentor challenge called: Profile Card Component
+My attempt at the Frontend Mentor challenge called: Profile Card Component
