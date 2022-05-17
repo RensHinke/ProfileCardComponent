@@ -10,8 +10,10 @@
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
+  <!--
   <img id="top-left-circle" src="images/bg-pattern-top.svg">
   <img id="bottom-right-circle" src="images/bg-pattern-bottom.svg">
+  -->
   <div class="card-container">
     <div class="card">
       <div class="card-top"></div>
@@ -29,14 +31,18 @@
       </div>
       
       <div class="card-bottom">
-        <span class="name_stats">80K</span>
-        Followers
-
-        <span class="name_stats">803K</span>
-        Likes
-
-        <span class="name_stats">1.4K</span>
-        Photos
+        <div class="square">
+          <span class="name_stats">80K</span>
+          <span class="details">Followers</span>
+        </div>
+        <div class="square">
+          <span class="name_stats">803K</span>
+          <span class="details">Likes</span>
+        </div>
+        <div class="square">
+          <span class="name_stats">1.4K</span>
+          <span class="details">Photos</span>
+        </div>
       </div>
     </div>
   </div>
